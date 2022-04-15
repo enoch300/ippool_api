@@ -2,8 +2,8 @@ package log
 
 import (
 	"github.com/enoch300/glog"
-	"github.com/enoch300/ippool_client/utils"
 	"github.com/sirupsen/logrus"
+	"ippool_api/utils"
 	"path/filepath"
 )
 

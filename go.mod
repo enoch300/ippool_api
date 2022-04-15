@@ -4,7 +4,6 @@ go 1.17
 
 require (
 	github.com/enoch300/glog v0.0.0-20210913102843-60ae70263a05
-	github.com/enoch300/ippool_client v1.0.2
 	github.com/gin-contrib/cors v1.3.1
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-redis/redis/v8 v8.11.5
