@@ -37,7 +37,7 @@ func Get(network, appid, machineid string) (res []string, err error) {
 
 	provinceIsp, _ := redis.RDB.HGet(ctx, "machine_ipip", machineid).Result()
 	strArray := strings.Split(provinceIsp, "_")
-	if len(strArray) != 2 {
+	if len(strArray) < 2 {
 		return res, fmt.Errorf("%s provinceIsp len != 2", machineid)
 	}
 
